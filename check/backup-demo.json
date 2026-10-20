@@ -1,0 +1,626 @@
+{
+ "settings": {
+  "school": "Sunrise Academy",
+  "year": 2026,
+  "term": 3,
+  "subjects": {
+   "pre": [
+    "Language Activities",
+    "Mathematical Activities",
+    "Environmental Activities",
+    "Psychomotor and Creative Activities",
+    "Religious Activities"
+   ],
+   "lower": [
+    "English",
+    "Kiswahili",
+    "Indigenous Language",
+    "Mathematics",
+    "Environmental Activities",
+    "Religious Education",
+    "Creative Activities"
+   ],
+   "upper": [
+    "English",
+    "Kiswahili",
+    "Mathematics",
+    "Science and Technology",
+    "Social Studies",
+    "Agriculture and Nutrition",
+    "Religious Education",
+    "Creative Arts"
+   ],
+   "junior": [
+    "English",
+    "Kiswahili",
+    "Mathematics",
+    "Integrated Science",
+    "Social Studies",
+    "Agriculture and Nutrition",
+    "Pre-Technical Studies",
+    "Religious Education",
+    "Creative Arts and Sports"
+   ],
+   "senior": [
+    "English",
+    "Kiswahili",
+    "Mathematics",
+    "Community Service Learning",
+    "Physical Education",
+    "ICT",
+    "Elective 1",
+    "Elective 2",
+    "Elective 3"
+   ],
+   "form": [
+    "English",
+    "Kiswahili",
+    "Mathematics",
+    "Biology",
+    "Chemistry",
+    "Physics",
+    "History",
+    "Geography",
+    "CRE",
+    "Business Studies"
+   ]
+  }
+ },
+ "users": [
+  {
+   "id": "061l6h343i1j",
+   "joined": "2026-10-20",
+   "approved": true,
+   "mobile": "",
+   "role": "admin",
+   "username": "admin",
+   "pw": "f5eeee7947c5ac97ccd61e3d499fabf9eb324399be625383f534707ebd963c48",
+   "psalt": "bdd2abb18ddb5fd8",
+   "first": "Amina",
+   "last": "Otieno"
+  },
+  {
+   "id": "5y1e4n3j1i2n",
+   "joined": "2026-10-20",
+   "approved": true,
+   "mobile": "0712 345 678",
+   "role": "teacher",
+   "username": "jkamau",
+   "pw": "730c732283bbaa926855e22915b9ea51bd7ad70fb993eb3842e32f17ff443d9b",
+   "psalt": "e5a30266c8d27e93",
+   "first": "John",
+   "last": "Kamau",
+   "tsc": "412345",
+   "salary": 48000
+  },
+  {
+   "id": "5z5n6o552w0p",
+   "joined": "2026-10-20",
+   "approved": true,
+   "mobile": "0723 456 789",
+   "role": "teacher",
+   "username": "lwanjiru",
+   "pw": "730c732283bbaa926855e22915b9ea51bd7ad70fb993eb3842e32f17ff443d9b",
+   "psalt": "e5a30266c8d27e93",
+   "first": "Lucy",
+   "last": "Wanjiru",
+   "tsc": "398210",
+   "salary": 52000
+  },
+  {
+   "id": "5b142v182c60",
+   "joined": "2026-10-20",
+   "approved": false,
+   "mobile": "0734 567 890",
+   "role": "teacher",
+   "username": "pnjoroge",
+   "pw": "730c732283bbaa926855e22915b9ea51bd7ad70fb993eb3842e32f17ff443d9b",
+   "psalt": "e5a30266c8d27e93",
+   "first": "Peter",
+   "last": "Njoroge",
+   "tsc": "",
+   "salary": 45000
+  },
+  {
+   "id": "1h2o275m300o",
+   "joined": "2026-10-20",
+   "approved": true,
+   "mobile": "0745 111 222",
+   "role": "student",
+   "username": "asha",
+   "pw": "730c732283bbaa926855e22915b9ea51bd7ad70fb993eb3842e32f17ff443d9b",
+   "psalt": "e5a30266c8d27e93",
+   "first": "Asha",
+   "last": "Mwangi",
+   "roll": "1041",
+   "cl": "Grade 4",
+   "gender": "Female",
+   "fee": 15000,
+   "guardian": "Grace Mwangi"
+  },
+  {
+   "id": "5s0m1p5d573o",
+   "joined": "2026-10-20",
+   "approved": true,
+   "mobile": "0745 111 333",
+   "role": "student",
+   "username": "brian",
+   "pw": "730c732283bbaa926855e22915b9ea51bd7ad70fb993eb3842e32f17ff443d9b",
+   "psalt": "e5a30266c8d27e93",
+   "first": "Brian",
+   "last": "Ochieng",
+   "roll": "1042",
+   "cl": "Grade 4",
+   "gender": "Male",
+   "fee": 15000,
+   "guardian": "James Ochieng"
+  },
+  {
+   "id": "6q213t1e6f6p",
+   "joined": "2026-10-20",
+   "approved": true,
+   "mobile": "0745 111 444",
+   "role": "student",
+   "username": "cynthia",
+   "pw": "730c732283bbaa926855e22915b9ea51bd7ad70fb993eb3842e32f17ff443d9b",
+   "psalt": "e5a30266c8d27e93",
+   "first": "Cynthia",
+   "last": "Achieng",
+   "roll": "1043",
+   "cl": "Grade 4",
+   "gender": "Female",
+   "fee": 15000,
+   "guardian": "Rose Achieng"
+  },
+  {
+   "id": "5t1z4f0o383v",
+   "joined": "2026-10-20",
+   "approved": true,
+   "mobile": "0745 222 111",
+   "role": "student",
+   "username": "daniel",
+   "pw": "730c732283bbaa926855e22915b9ea51bd7ad70fb993eb3842e32f17ff443d9b",
+   "psalt": "e5a30266c8d27e93",
+   "first": "Daniel",
+   "last": "Kiptoo",
+   "roll": "1051",
+   "cl": "Grade 5",
+   "gender": "Male",
+   "fee": 16000,
+   "guardian": "Hillary Kiptoo"
+  },
+  {
+   "id": "453o2i6i3c2i",
+   "joined": "2026-10-20",
+   "approved": true,
+   "mobile": "0745 222 222",
+   "role": "student",
+   "username": "esther",
+   "pw": "730c732283bbaa926855e22915b9ea51bd7ad70fb993eb3842e32f17ff443d9b",
+   "psalt": "e5a30266c8d27e93",
+   "first": "Esther",
+   "last": "Muthoni",
+   "roll": "1052",
+   "cl": "Grade 5",
+   "gender": "Female",
+   "fee": 16000,
+   "guardian": "Mary Muthoni"
+  },
+  {
+   "id": "323s0x5o0o15",
+   "joined": "2026-10-20",
+   "approved": false,
+   "mobile": "0745 333 111",
+   "role": "student",
+   "username": "farid",
+   "pw": "730c732283bbaa926855e22915b9ea51bd7ad70fb993eb3842e32f17ff443d9b",
+   "psalt": "e5a30266c8d27e93",
+   "first": "Farid",
+   "last": "Hassan",
+   "roll": "1071",
+   "cl": "Grade 7",
+   "gender": "Male",
+   "fee": 22000,
+   "guardian": "Amina Hassan"
+  },
+  {
+   "id": "u-badphone",
+   "role": "teacher",
+   "username": "pnjoroge",
+   "pw": "0000000000000000000000000000000000000000000000000000000000000000",
+   "first": "Peter",
+   "last": "Njoroge",
+   "mobile": "073456",
+   "joined": "2026-01-09",
+   "approved": false,
+   "tsc": "",
+   "salary": 45000
+  },
+  {
+   "id": "u-nocls",
+   "role": "student",
+   "username": "kalume",
+   "pw": "000000000000000000000000000000000000000000000000000000000000000a",
+   "first": "Kalume",
+   "last": "M",
+   "roll": "1099",
+   "cl": "Grade 19",
+   "gender": "Male",
+   "guardian": "G",
+   "fee": 15000,
+   "joined": "2026-01-09",
+   "approved": false
+  },
+  {
+   "id": "u-plain",
+   "role": "student",
+   "username": "sha",
+   "pw": "plain:demo1234",
+   "first": "Asha",
+   "last": "M",
+   "roll": "1041",
+   "cl": "Grade 4",
+   "gender": "Female",
+   "guardian": "G",
+   "fee": 15000,
+   "joined": "2026-01-09",
+   "approved": true
+  }
+ ],
+ "attendance": [
+  {
+   "date": "2026-10-19",
+   "cl": "Grade 4",
+   "sid": "1h2o275m300o",
+   "status": "Present"
+  },
+  {
+   "date": "2026-10-19",
+   "cl": "Grade 4",
+   "sid": "5s0m1p5d573o",
+   "status": "Present"
+  },
+  {
+   "date": "2026-10-19",
+   "cl": "Grade 4",
+   "sid": "6q213t1e6f6p",
+   "status": "Present"
+  },
+  {
+   "date": "2026-10-16",
+   "cl": "Grade 4",
+   "sid": "1h2o275m300o",
+   "status": "Absent"
+  },
+  {
+   "date": "2026-10-16",
+   "cl": "Grade 4",
+   "sid": "5s0m1p5d573o",
+   "status": "Present"
+  },
+  {
+   "date": "2026-10-16",
+   "cl": "Grade 4",
+   "sid": "6q213t1e6f6p",
+   "status": "Present"
+  }
+ ],
+ "notices": [
+  {
+   "id": "0w51333g1m12",
+   "date": "2026-10-20",
+   "by": "Amina",
+   "message": "Welcome to Term 3. Pay fees by M-Pesa and use the admission number as the account number. Mid-term exams start next week."
+  }
+ ],
+ "messages": [
+  {
+   "id": "m1",
+   "date": "2026-06-02",
+   "name": "Jane",
+   "email": "jane@example.com",
+   "message": "Question about Grade 4 fees"
+  },
+  {
+   "id": "m2",
+   "date": "2026-06-03",
+   "name": "Bot",
+   "email": "not-an-email",
+   "message": "spam"
+  }
+ ],
+ "payments": [
+  {
+   "id": "3s6k1b2m5p1a",
+   "sid": "1h2o275m300o",
+   "amount": 5000,
+   "date": "2026-09-30",
+   "method": "M-Pesa",
+   "ref": "SJK4X9P2QA",
+   "term": 3,
+   "year": 2026,
+   "rcpt": "RCT-0001"
+  },
+  {
+   "id": "6a0w580h494r",
+   "sid": "5s0m1p5d573o",
+   "amount": 15000,
+   "date": "2026-10-05",
+   "method": "M-Pesa",
+   "ref": "SJL7M2R8TB",
+   "term": 3,
+   "year": 2026,
+   "rcpt": "RCT-0002"
+  },
+  {
+   "id": "1o3o0i512d2i",
+   "sid": "5t1z4f0o383v",
+   "amount": 8000,
+   "date": "2026-10-11",
+   "method": "Bank deposit",
+   "ref": "SLIP-88213",
+   "term": 3,
+   "year": 2026,
+   "rcpt": "RCT-0003"
+  },
+  {
+   "id": "5b3o483t0g67",
+   "sid": "5t1z4f0o383v",
+   "amount": 4000,
+   "date": "2026-10-18",
+   "method": "Cash",
+   "ref": "",
+   "term": 3,
+   "year": 2026,
+   "rcpt": "RCT-0004"
+  },
+  {
+   "id": "p-bad",
+   "sid": "1h2o275m300o",
+   "amount": 3000,
+   "date": "2026-06-11",
+   "method": "M-Pesa",
+   "ref": "xy",
+   "term": 3,
+   "year": 2026,
+   "rcpt": "RCT-0009"
+  }
+ ],
+ "marks": [
+  {
+   "sid": "1h2o275m300o",
+   "term": 3,
+   "year": 2026,
+   "exam": "Mid-term",
+   "subject": "English",
+   "score": 82,
+   "absent": false
+  },
+  {
+   "sid": "1h2o275m300o",
+   "term": 3,
+   "year": 2026,
+   "exam": "Mid-term",
+   "subject": "Kiswahili",
+   "score": 76,
+   "absent": false
+  },
+  {
+   "sid": "1h2o275m300o",
+   "term": 3,
+   "year": 2026,
+   "exam": "Mid-term",
+   "subject": "Mathematics",
+   "score": 91,
+   "absent": false
+  },
+  {
+   "sid": "1h2o275m300o",
+   "term": 3,
+   "year": 2026,
+   "exam": "Mid-term",
+   "subject": "Science and Technology",
+   "score": 68,
+   "absent": false
+  },
+  {
+   "sid": "1h2o275m300o",
+   "term": 3,
+   "year": 2026,
+   "exam": "Mid-term",
+   "subject": "Social Studies",
+   "score": 74,
+   "absent": false
+  },
+  {
+   "sid": "1h2o275m300o",
+   "term": 3,
+   "year": 2026,
+   "exam": "Mid-term",
+   "subject": "Agriculture and Nutrition",
+   "score": 80,
+   "absent": false
+  },
+  {
+   "sid": "1h2o275m300o",
+   "term": 3,
+   "year": 2026,
+   "exam": "Mid-term",
+   "subject": "Religious Education",
+   "score": 88,
+   "absent": false
+  },
+  {
+   "sid": "1h2o275m300o",
+   "term": 3,
+   "year": 2026,
+   "exam": "Mid-term",
+   "subject": "Creative Arts",
+   "score": 79,
+   "absent": false
+  },
+  {
+   "sid": "5s0m1p5d573o",
+   "term": 3,
+   "year": 2026,
+   "exam": "Mid-term",
+   "subject": "English",
+   "score": 64,
+   "absent": false
+  },
+  {
+   "sid": "5s0m1p5d573o",
+   "term": 3,
+   "year": 2026,
+   "exam": "Mid-term",
+   "subject": "Kiswahili",
+   "score": 58,
+   "absent": false
+  },
+  {
+   "sid": "5s0m1p5d573o",
+   "term": 3,
+   "year": 2026,
+   "exam": "Mid-term",
+   "subject": "Mathematics",
+   "score": 72,
+   "absent": false
+  },
+  {
+   "sid": "5s0m1p5d573o",
+   "term": 3,
+   "year": 2026,
+   "exam": "Mid-term",
+   "subject": "Science and Technology",
+   "score": 60,
+   "absent": false
+  },
+  {
+   "sid": "5s0m1p5d573o",
+   "term": 3,
+   "year": 2026,
+   "exam": "Mid-term",
+   "subject": "Social Studies",
+   "score": 55,
+   "absent": false
+  },
+  {
+   "sid": "5s0m1p5d573o",
+   "term": 3,
+   "year": 2026,
+   "exam": "Mid-term",
+   "subject": "Agriculture and Nutrition",
+   "score": 63,
+   "absent": false
+  },
+  {
+   "sid": "5s0m1p5d573o",
+   "term": 3,
+   "year": 2026,
+   "exam": "Mid-term",
+   "subject": "Religious Education",
+   "score": 70,
+   "absent": false
+  },
+  {
+   "sid": "5s0m1p5d573o",
+   "term": 3,
+   "year": 2026,
+   "exam": "Mid-term",
+   "subject": "Creative Arts",
+   "score": 66,
+   "absent": false
+  },
+  {
+   "sid": "6q213t1e6f6p",
+   "term": 3,
+   "year": 2026,
+   "exam": "Mid-term",
+   "subject": "English",
+   "score": 47,
+   "absent": false
+  },
+  {
+   "sid": "6q213t1e6f6p",
+   "term": 3,
+   "year": 2026,
+   "exam": "Mid-term",
+   "subject": "Kiswahili",
+   "score": 52,
+   "absent": false
+  },
+  {
+   "sid": "6q213t1e6f6p",
+   "term": 3,
+   "year": 2026,
+   "exam": "Mid-term",
+   "subject": "Mathematics",
+   "score": 39,
+   "absent": false
+  },
+  {
+   "sid": "6q213t1e6f6p",
+   "term": 3,
+   "year": 2026,
+   "exam": "Mid-term",
+   "subject": "Science and Technology",
+   "score": 44,
+   "absent": false
+  },
+  {
+   "sid": "6q213t1e6f6p",
+   "term": 3,
+   "year": 2026,
+   "exam": "Mid-term",
+   "subject": "Social Studies",
+   "score": 50,
+   "absent": false
+  },
+  {
+   "sid": "6q213t1e6f6p",
+   "term": 3,
+   "year": 2026,
+   "exam": "Mid-term",
+   "subject": "Agriculture and Nutrition",
+   "score": 41,
+   "absent": false
+  },
+  {
+   "sid": "6q213t1e6f6p",
+   "term": 3,
+   "year": 2026,
+   "exam": "Mid-term",
+   "subject": "Religious Education",
+   "score": 58,
+   "absent": false
+  },
+  {
+   "sid": "6q213t1e6f6p",
+   "term": 3,
+   "year": 2026,
+   "exam": "Mid-term",
+   "subject": "Creative Arts",
+   "score": 45,
+   "absent": false
+  },
+  {
+   "sid": "1h2o275m300o",
+   "term": 3,
+   "year": 2026,
+   "exam": "Mid-term",
+   "subject": "Coding",
+   "score": 61,
+   "absent": false
+  },
+  {
+   "sid": "1h2o275m300o",
+   "term": 3,
+   "year": 2026,
+   "exam": "Some exam",
+   "subject": "English",
+   "score": 61,
+   "absent": false
+  }
+ ],
+ "rcpt": 4
+}

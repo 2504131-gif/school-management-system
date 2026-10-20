@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sunrise Academy</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,Arial;background:#f6f5f1;color:#1f2937}
+#app{min-height:100vh}
+.wrap{max-width:1100px;margin:0 auto;padding:18px}
+.top{display:flex;justify-content:space-between;padding:12px 0}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:20px;background:none;border:0}
+.brand i{width:32px;height:32px;background:#0f172a;border-radius:8px;display:inline-block}
+.nav{display:flex;gap:6px;flex-wrap:wrap}.nav button{border:1px solid #e5e7eb;background:#fff;padding:8px 12px;border-radius:8px}
+.nav button.on{background:#0f172a;color:#fff}
+.btn{border:1px solid #e5e7eb;background:#fff;padding:10px 16px;border-radius:10px;font-weight:600}
+.btn.primary{background:#0f172a;color:#fff}
+.btn.sm{padding:6px 10px;font-size:13px}
+.formcard{margin:30px auto;background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:24px;max-width:560px}
+.form{display:grid;gap:14px;margin-top:16px}
+.f{display:grid;gap:6px;font-size:14px}
+.f input,.f select,.f textarea{padding:10px 12px;border:1px solid #e5e7eb;border-radius:8px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.shell{display:grid;grid-template-columns:240px 1fr;min-height:100vh}
+.side{background:#0f172a;color:#cbd5e1;padding:18px;display:flex;flex-direction:column;gap:6px}
+.side .brand{color:#fff}
+.me{padding:12px 0;border-bottom:1px solid #ffffff22;margin-bottom:8px}
+.me b{display:block;color:#fff}
+.item{width:100%;text-align:left;background:transparent;border:0;color:#cbd5e1;padding:10px 12px;border-radius:8px}
+.item.on{background:#ffffff18;color:#fff}
+.spacer{flex:1}
+.main{padding:22px}
+.head{margin-bottom:18px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:18px}
+.stat{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:14px}
+.stat .k{font-size:11px;color:#6b7280;text-transform:uppercase}
+.stat .v{font-size:22px;font-weight:800}
+.card{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:16px}
+.tablewrap{overflow:auto;background:#fff;border:1px solid #e5e7eb;border-radius:12px}
+table{width:100%;border-collapse:collapse}
+th,td{padding:10px 12px;text-align:left;border-bottom:1px solid #e5e7eb;font-size:14px}
+.seg{display:flex;gap:6px;margin-bottom:14px}
+.seg button{border:1px solid #e5e7eb;background:#fff;padding:8px 12px;border-radius:8px}
+.seg button.on{background:#0f172a;color:#fff}
+.notices{display:grid;gap:10px}.notice{background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:12px;display:flex;justify-content:space-between}
+.toast{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);background:#0f172a;color:#fff;padding:10px 16px;border-radius:10px;z-index:100}
+@media(max-width:800px){.shell{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}.grid2{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<div id="layer"></div>
+<script src="app.js"></script>
+</body>
+</html>
